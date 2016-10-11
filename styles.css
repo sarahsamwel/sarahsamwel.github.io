@@ -1,0 +1,87 @@
+div.title h1 {
+	background-color:black;
+	color: rgb(128,128,128);
+	margin:0;
+	left:0;
+	bottom:0;
+	width:100%;
+	font-size:75px;
+	font-weight:normal;
+	padding:4px;
+	opacity:0.75;
+	text-align: center;
+	font-family: sans-serif, Arial, sans-serif;
+	position:absolute;
+	
+}
+img {
+	width: 100%;
+	height: auto;
+	position:relative;
+}
+
+div.lead {
+	font-family: sans-serif, Arial, sans-serif;
+	width: 60%;
+	padding-left: 20%;
+	padding-right:20%;
+	padding-bottom: 5%;
+}
+
+div.ParagraphOneLead {
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+	padding-left: 5%;
+	text-align: center;
+	font-family: sans-serif, Arial, sans-serif;
+}
+div.ParagraphTwoLead {
+	display: inline-block;
+	width: 40%
+	vertical-align:top;
+	padding-left: 17%;
+	text-align: center; 
+	font-family: sans-serif, Arial, sans-serif;
+}
+
+div.ParagraphOne {
+	display: inline-block;
+	float: left;
+	width: 40%;
+	vertical-align: top;
+
+}
+div.ParagraphTwo {
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+	padding-left: 11%;
+
+}
+div.ParagraphOne p {
+	display: none;
+	padding-left: 5%;
+}
+div.ParagraphTwo p {
+	display: none;
+	padding-left: 7%;
+}
+
+div.firstBox {
+	display: inline-block;
+	width:30%;
+	vertical-align: top;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+div.secondBox {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 5%;
+}
+p {
+	font-family: sans-serif, Arial, sans-serif;
+	color:black;
+}

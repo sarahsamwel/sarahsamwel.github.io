@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MUNICIPAL INVESTIGATIONS</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class = "title">
+	<img src = "Toronto.jpg" alt = "Toronto's skyline">
+	<h1>MUNICIPAL INVESTGATIONS IN TORONTO </h1>
+</div>
+
+<div class = "lead">
+		<p> In the city of Toronto, over 120,000 complaints were made about municipal concerns since 2002. The complaints range from everything from graffiti to waste. There was a dramatic increase of complaints recorded starting in 2010. This may have been due to the introduction of online reporting (http://bit.ly/1rUMhZe). However, as this website will show, very rarely are complaints taken further than issuing a complaint. This prompts the question if these complaints are being handled correctly or if the volume of complaints is too large for the city to handle. It may also warrant a look into the necessity of having an online complaint system.</p>
+</div>
+
+<div class ="ParagraphOneLead">
+	<h3> Only 25 Charges Laid </h3>
+	<center><button id="b1">READ MORE</button></center>
+</div>
+
+<div class =ParagraphTwoLead>
+	<h3> Ongoing Investigations by Type </h3>
+	<center><button id="b2">READ MORE</button></center>
+</div>
+
+
+<div class="ParagraphOne">
+	<p>Over a 14 year period, only 25 complaints reached the stage of charges being laid. Out of 120,000 that's a remarkably small percentage. This interative map shows the location of these occurences. There is a strong presence of charges being laid in the downtown core. Whether this is due to population density or more active policing in those areas remains unclear.</p>
+
+<div class="firstBox">
+	<iframe width="510" height="450" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?q=select+col13+from+1GgFf43kA5AZ0xLXonMnKY5oy_XBJ0KiFegOW7MQO&amp;viz=MAP&amp;h=false&amp;lat=43.70402756678319&amp;lng=-79.58726113403327&amp;t=1&amp;z=10&amp;l=col13&amp;y=2&amp;tmplt=2&amp;hml=TWO_COL_LAT_LNG"></iframe>
+	</div>
+</div>
+
+<div class="ParagraphTwo">
+	<p>Not every complaint will warrant charges being laid. There are other courses of action. This map represents some of these. This interactive shows ongoing investigations by their type. This map only has approximately 350 data points. Again, this is a remarkably low percentage out of 120,000.</p>
+
+
+<div class="secondBox">
+		<iframe width="560" height="500" src="https://www.googledrive.com/host/0B_T-KeuzJXlXTXVIN3oteTFlcUU" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<script type="text/javascript"> 
+	console.log ("Programmers are tools for converting caffeine into code.")
+
+$("#b1").click(function(){
+    $(".ParagraphOne p").slideToggle('slow');
+});
+$("#b2").click(function(){
+    $(".ParagraphTwo p").slideToggle('slow');
+});
+
+</script>
+
+</body>
+</html>
